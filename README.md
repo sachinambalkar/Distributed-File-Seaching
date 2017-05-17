@@ -6,7 +6,7 @@ Following are instruction about how to run code:
 
 Detais of config.property are as follows:
 
-ServerPort :   This is Peer's server port number of.
+ServerPort :   This is Peer's server port number of.\n
 TotalPeer :This number of peers need to active to start program.
 If “TotalPeer = 8” then Client1 to Client8 should active to start program.
 
