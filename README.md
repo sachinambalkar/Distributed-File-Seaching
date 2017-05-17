@@ -4,10 +4,14 @@ Please refer design document.
 
 Following are instruction about how to run code:
 
+
+
 Detais of config.property are as follows:
 
-ServerPort :   This is Peer's server port number of.\n
+ServerPort :   This is Peer's server port number of.
+
 TotalPeer :This number of peers need to active to start program.
+
 If “TotalPeer = 8” then Client1 to Client8 should active to start program.
 
 eg.
@@ -16,6 +20,7 @@ If TotalPeer = 2, then Client1 and Client2 should be running to start functional
 PORT Dependency =>
 1. 'config.property' file details are as follows :
 ServerPort = 4410 TotalPeer = 8
+
 Client1 = 192.168.0.999:4410
 Client2 = 192.168.0.105:4420
 Client3 = 192.168.0.105:4430
@@ -30,13 +35,19 @@ Client10 = 192.168.0.105:5500
 
 2. Suppose ServerPort values is “ABCD”, then this “ABCD” port should
   be present in listed Client's IP and PORT like.
+  
   ServerPort = ABCD
+  
   TotalPeer = 8
+  
   Client1 = XXXX.YYYY.ZZZZ.MMMM:ABCD
+
 
 3. So 'XXXX.YYYY.ZZZZ.MMMM' should be the IP address    of PEER.
 
+
 4. From details mentioned above,
+
 Peer's IP address is    192.168.0.999
 Peer's ServerPort is    4410
 
