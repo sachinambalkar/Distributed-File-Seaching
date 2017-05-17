@@ -1,9 +1,11 @@
 # Distributed-File-System
 
 Please refer design document.
+
 Following are instruction about how to run code:
 
 Detais of config.property are as follows:
+
 ServerPort :   This is Peer's server port number of.
 TotalPeer :This number of peers need to active to start program.
 If “TotalPeer = 8” then Client1 to Client8 should active to start program.
